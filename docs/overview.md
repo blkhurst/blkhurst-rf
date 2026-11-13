@@ -44,6 +44,10 @@ Create and understand the components with key bullets.
 
 ### ABRACON ABM8-40.000MHZ-10-D1G-T
 
+<img src="./002 - ABM8.png" height=300  />
+
+Verified the symbol's pin mapping. Moved each footprint pad 0.05 mm towards the centre to match Abracons [recommended land pattern](https://abracon.com/Resonators/abm8.pdf#page=2).
+
 ### LTC2954 (CDDB-1)
 
 ## Circuit Design
