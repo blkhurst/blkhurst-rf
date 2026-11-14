@@ -46,7 +46,13 @@ Create and understand the components with key bullets.
 
 <img src="./002 - ABM8.png" height=300  />
 
-Verified the symbol's pin mapping. Moved each footprint pad 0.05 mm towards the centre to match Abracons [recommended land pattern](https://abracon.com/Resonators/abm8.pdf#page=2).
+- Verified the symbol's pin mapping. Moved each footprint pad 0.05 mm towards the centre to match Abracons [recommended land pattern](https://abracon.com/Resonators/abm8.pdf#page=2).
+
+### USB4215-03-A
+
+<img src="./003 - USB-C.png" height=300  />
+
+- Symbol and footprint unavailable, created from manufacturers datasheet.
 
 ### LTC2954 (CDDB-1)
 

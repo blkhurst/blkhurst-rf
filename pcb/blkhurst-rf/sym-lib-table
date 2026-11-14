@@ -3,4 +3,5 @@
 	(lib (name "blkhurst-rf") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/blkhurst-rf.kicad_sym") (options "") (descr ""))
 	(lib (name "ESP32-C3FH4X") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/ESP32-C3FH4X.kicad_sym") (options "") (descr ""))
 	(lib (name "ABM8-40_000MHz-10-D1G-T") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/ABM8-40_000MHz-10-D1G-T.kicad_sym") (options "") (descr ""))
+	(lib (name "USB4215-03-A") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/USB4215-03-A.kicad_sym") (options "") (descr ""))
 )
