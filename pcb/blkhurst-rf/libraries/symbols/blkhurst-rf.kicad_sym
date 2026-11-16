@@ -1210,8 +1210,8 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 15.24 0)
-				(length 2.54)
+				(at -3.81 -24.13 90)
+				(length 6.35)
 				(name "GND"
 					(effects
 						(font
@@ -1228,8 +1228,8 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 12.7 0)
-				(length 2.54)
+				(at 13.97 11.43 180)
+				(length 6.35)
 				(name "VBUS"
 					(effects
 						(font
@@ -1246,8 +1246,8 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 7.62 0)
-				(length 2.54)
+				(at 13.97 -8.89 180)
+				(length 6.35)
 				(name "CC1"
 					(effects
 						(font
@@ -1264,8 +1264,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 2.54 0)
-				(length 2.54)
+				(at 13.97 5.08 180)
+				(length 6.35)
 				(name "Dp1"
 					(effects
 						(font
@@ -1282,8 +1282,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 0 0)
-				(length 2.54)
+				(at 13.97 -2.54 180)
+				(length 6.35)
 				(name "Dn1"
 					(effects
 						(font
@@ -1299,9 +1299,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -10.16 -5.08 0)
-				(length 2.54)
+			(pin no_connect line
+				(at -13.97 -8.89 0)
+				(length 6.35)
 				(name "SBU1"
 					(effects
 						(font
@@ -1318,8 +1318,8 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 -12.7 0)
-				(length 2.54)
+				(at 0 -24.13 90)
+				(length 6.35)
 				(name "GND"
 					(effects
 						(font
@@ -1336,8 +1336,8 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 -10.16 0)
-				(length 2.54)
+				(at 13.97 8.89 180)
+				(length 6.35)
 				(name "VBUS"
 					(effects
 						(font
@@ -1354,8 +1354,8 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -7.62 0)
-				(length 2.54)
+				(at 13.97 -11.43 180)
+				(length 6.35)
 				(name "CC2"
 					(effects
 						(font
@@ -1372,8 +1372,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -2.54 0)
-				(length 2.54)
+				(at 13.97 2.54 180)
+				(length 6.35)
 				(name "Dp2"
 					(effects
 						(font
@@ -1390,8 +1390,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 5.08 0)
-				(length 2.54)
+				(at 13.97 -5.08 180)
+				(length 6.35)
 				(name "Dn2"
 					(effects
 						(font
@@ -1407,9 +1407,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -10.16 10.16 0)
-				(length 2.54)
+			(pin no_connect line
+				(at -13.97 -11.43 0)
+				(length 6.35)
 				(name "SBU2"
 					(effects
 						(font
@@ -1426,8 +1426,8 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 -15.24 0)
-				(length 2.54)
+				(at 3.81 -24.13 90)
+				(length 6.35)
 				(name "GND"
 					(effects
 						(font
