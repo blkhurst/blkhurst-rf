@@ -126,3 +126,17 @@ The LTC2954 allows one of my existing push buttons to double as power control _a
 - ONT controls the on-time, defaulting to **32 ms**.
 - PDT controls the power-down time, approximately 6.5 seconds.
 - Firmware can detect INT and pull KILL low to shut down sooner, or automatically after inactivity.
+
+### Regulator - TPS63030DSKT
+
+<img src="./circuit_006 - regulator.png" height=300 />
+
+EN connects to the LTC2954 for on/off control.
+
+Based on [Figure 5](https://www.ti.com/lit/ds/symlink/tps63030.pdf#page=10). PS/SYNC is pulled high for tighter voltage regulation at the expense of light-load efficiency. The regulator adjusts its switching to keep FB (feedback) at approximately **0.5 V**. [calculation](https://www.ti.com/lit/ds/symlink/tps63030.pdf#page=11):
+
+$$
+V_{\mathrm{OUT}}=0.5\left(1+\frac{R18}{R19}\right)
+=0.5\left(1+\frac{1.13\,\mathrm{M\Omega}}{210\,\mathrm{k\Omega}}\right)
+\approx3.190\,\mathrm{V}
+$$
