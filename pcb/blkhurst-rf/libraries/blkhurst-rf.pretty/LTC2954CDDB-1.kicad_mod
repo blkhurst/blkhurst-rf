@@ -1,0 +1,217 @@
+(footprint "LTC2954CDDB-1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "LTC2954 DDB DFN-8, body 2x3mm, pitch 0.5mm; ADI nominal land pattern https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-dfn/05081702_c_ddb8.pdf")
+	(tags "LTC2954 DDB DFN")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(layer "F.SilkS")
+		(uuid "59154e7f-9c2c-43ad-9c75-3a1502cb3778")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LTC2954CDDB-1"
+		(at 0 2.3 0)
+		(layer "F.Fab")
+		(uuid "68ad2f75-e506-41c1-a3bf-e842d64112cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95b503a9-70ce-4d0b-ad16-77328737efe4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4cbe78b9-fadf-4ea3-aa00-0bc48182a6c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.1 -1.62)
+		(end 1.1 -1.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a56cc98d-f454-42b5-8c6f-2a798fbb915f")
+	)
+	(fp_line
+		(start -1.1 1.62)
+		(end 1.1 1.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a9abd29-4680-4e06-af85-dd979b462cc1")
+	)
+	(fp_poly
+		(pts
+			(xy -1.52 -0.75) (xy -1.75 -0.9) (xy -1.75 -0.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "65999287-ebfc-4041-94d7-c0a8e1b93254")
+	)
+	(fp_line
+		(start -1.55 -1.8)
+		(end 1.55 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4997bf13-2ccc-4c72-9038-fee127ec8eaf")
+	)
+	(fp_line
+		(start -1.55 1.8)
+		(end -1.55 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae846c13-6f55-4a19-b689-b88f6d9d53b6")
+	)
+	(fp_line
+		(start 1.55 -1.8)
+		(end 1.55 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "07131db0-123d-4e0c-9e4e-3304945c7e1b")
+	)
+	(fp_line
+		(start 1.55 1.8)
+		(end -1.55 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b8c173c3-793d-419b-8704-06da4713b5b2")
+	)
+	(fp_poly
+		(pts
+			(xy -0.5 -1.5) (xy 1 -1.5) (xy 1 1.5) (xy -1 1.5) (xy -1 -1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3339acaa-697e-4bda-b216-97a456b1a10f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "a76b9bbe-1d34-4fd4-bc88-26c9ffd9a97e")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.925 -0.75)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a8237243-6333-4b52-bcdd-bd9ca309feda")
+	)
+	(pad "2" smd rect
+		(at -0.925 -0.25)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3ba8c63c-7b2a-4a6f-a79c-3f6a33109a9e")
+	)
+	(pad "3" smd rect
+		(at -0.925 0.25)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a3c3c259-132d-4970-b410-76c744ecb2e1")
+	)
+	(pad "4" smd rect
+		(at -0.925 0.75)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "14eb4891-3e28-48b9-8f5f-e33f3a036a28")
+	)
+	(pad "5" smd rect
+		(at 0.925 0.75)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8ad0a220-e147-4e3a-a036-bf2b09a050bc")
+	)
+	(pad "6" smd rect
+		(at 0.925 0.25)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8b240154-8a50-4ce1-8fe2-8ff6e34b542c")
+	)
+	(pad "7" smd rect
+		(at 0.925 -0.25)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0223687a-75f4-4bdd-9959-c07d53ed5990")
+	)
+	(pad "8" smd rect
+		(at 0.925 -0.75)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a2df43ff-39de-4a44-81a2-c587c5ffa2e9")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 0.61 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin_ratio -0.1)
+		(zone_connect 2)
+		(uuid "9c24f01b-4d96-485c-b397-0b6a845c9ad2")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/3dmodels/DFN-8_DDB_LIT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

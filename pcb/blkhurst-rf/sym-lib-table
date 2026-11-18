@@ -7,4 +7,5 @@
 	(lib (name "ESD122DMXR") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/ESD122DMXR.kicad_sym") (options "") (descr ""))
 	(lib (name "BQ24074RGTR") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/BQ24074RGTR.kicad_sym") (options "") (descr ""))
 	(lib (name "S2B-PH-K-S_LF__SN_") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/S2B-PH-K-S_LF__SN_.kicad_sym") (options "") (descr ""))
+	(lib (name "LTC2954") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/LTC2954.kicad_sym") (options "") (descr ""))
 )
