@@ -72,6 +72,13 @@ Jauch [datasheet](https://www.jauch.com/downloadfile/5bf529acf2902e0e6585a358571
 
 Small LiPo packs often have only two power wires, with no thermistor connection. For this prototype, I do not use temperature monitoring and will only charge while attended, with the battery above 15C and below 45C.
 
+<img src="circuit_004 - battery.png" height=300 />
+
+- Used a keyed JST connector, so omitted reverse-polarity protection.
+- A P-channel MOSFET connects VBAT to the divider when its gate is pulled low. A pull-up to VBAT keeps it off otherwise.
+- An N-channel MOSFET pulls that gate low when the switched 3.3V supply is on. Its gate pull-down keeps it off when the supply is absent.
+- Added a **0.1µF capacitor** at the ADC input to reduce noise, following [Espressif’s guidance](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/api-reference/peripherals/adc/adc_calibration.html#minimize-noise).
+
 ### Charging - BQ24074
 
 The BQ24074 supports the power-path management I desired. The device can run from USB-C alone, battery alone, or USB-C while charging ([TI overview](https://www.ti.com/lit/pdf/SLVU274#page=2)). The charger prioritises powering the device over charging the battery. If USB power is insufficient, the battery can supplement it. The circuit is based on [Figure 10-12, page 38](https://www.ti.com/lit/ds/symlink/bq24074.pdf#page=38), using pages **34–35** for component calculation and **12–14** for electrical limits and tolerances.
