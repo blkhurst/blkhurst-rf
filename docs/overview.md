@@ -116,3 +116,13 @@ $$
 > Espressif's USB Serial/JTAG controller handles USB enumeration automatically and requests 500mA, but requires the ESP32 to be powered. The charger operates independently, so consumption may exceed the permitted limit before enumeration or while the ESP32 is powered off.
 >
 > Automatically selecting the input limit would require USB-state handling and separate supply detection while the ESP32 is off, so I omitted this complexity for a personal prototype used with a known suitable supply.
+
+### On/Off Controller - LTC2954 (CDDB-1)
+
+<img src="./circuit_005 - power controller.png" height=300 />
+
+The LTC2954 allows one of my existing push buttons to double as power control _and_ ESP32 input via the debounced INT. Based on the [page 1 reference circuit](https://www.mouser.co.uk/datasheet/3/1014/1/2954fb.pdf), using the `-1` variant to enable the regulator.
+
+- ONT controls the on-time, defaulting to **32 ms**.
+- PDT controls the power-down time, approximately 6.5 seconds.
+- Firmware can detect INT and pull KILL low to shut down sooner, or automatically after inactivity.
