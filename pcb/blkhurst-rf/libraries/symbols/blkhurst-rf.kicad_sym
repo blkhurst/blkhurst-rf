@@ -2,6 +2,216 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
+	(symbol "ABM8-26.000MHZ-10-D-1-G-T"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "Y"
+			(at 26.67 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "ABM8-26.000MHZ-10-D-1-G-T"
+			(at 26.67 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "blkhurst-rf:ABM810000MHZ12D2W"
+			(at 26.67 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://abracon.com/Resonators/abm8.pdf"
+			(at 26.67 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "CRYSTAL 26.0000MHZ 10PF SMD"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 26.67 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 26.67 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 26.67 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "ABRACON"
+			(at 26.67 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ABM8-26.000MHZ-10-D-1-G-T"
+			(at 26.67 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "ABM8-26.000MHZ-10-D-1-G-T_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 25.4 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "X1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -2.54 180)
+				(length 5.08)
+				(name "GND_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 0 180)
+				(length 5.08)
+				(name "X2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "GND_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "ABM8-40.000MHz-10-D1G-T"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -663,25 +873,23 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "IC"
-			(at 34.29 17.78 0)
+			(at 10.16 10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
 		(property "Value" "CC1101RGPR"
-			(at 34.29 15.24 0)
+			(at 10.16 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
 		(property "Footprint" "blkhurst-rf:QFN50P400X400X100-21N-D"
@@ -781,8 +989,8 @@
 		)
 		(symbol "CC1101RGPR_1_1"
 			(rectangle
-				(start 5.08 12.7)
-				(end 33.02 -30.48)
+				(start -5.08 2.54)
+				(end 19.05 -35.56)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -792,7 +1000,7 @@
 				)
 			)
 			(pin input line
-				(at 0 0 0)
+				(at -10.16 -7.62 0)
 				(length 5.08)
 				(name "SCLK"
 					(effects
@@ -810,7 +1018,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 0 -2.54 0)
+				(at -10.16 -12.7 0)
 				(length 5.08)
 				(name "SO_(GDO1)"
 					(effects
@@ -828,7 +1036,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -5.08 0)
+				(at -10.16 -2.54 0)
 				(length 5.08)
 				(name "GDO2"
 					(effects
@@ -846,7 +1054,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -7.62 0)
+				(at -10.16 -25.4 0)
 				(length 5.08)
 				(name "DVDD"
 					(effects
@@ -864,7 +1072,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -10.16 0)
+				(at -10.16 -27.94 0)
 				(length 5.08)
 				(name "DCOUPL"
 					(effects
@@ -882,7 +1090,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -35.56 90)
+				(at -10.16 0 0)
 				(length 5.08)
 				(name "GDO0_(ATEST)"
 					(effects
@@ -900,7 +1108,7 @@
 				)
 			)
 			(pin input line
-				(at 15.24 -35.56 90)
+				(at -10.16 -5.08 0)
 				(length 5.08)
 				(name "CSN"
 					(effects
@@ -918,7 +1126,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -35.56 90)
+				(at -10.16 -17.78 0)
 				(length 5.08)
 				(name "XOSC_Q1"
 					(effects
@@ -936,7 +1144,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 -35.56 90)
+				(at 24.13 -17.78 180)
 				(length 5.08)
 				(name "AVDD_1"
 					(effects
@@ -954,7 +1162,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.86 -35.56 90)
+				(at -10.16 -20.32 0)
 				(length 5.08)
 				(name "XOSC_Q2"
 					(effects
@@ -972,7 +1180,7 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 -10.16 180)
+				(at 24.13 -20.32 180)
 				(length 5.08)
 				(name "AVDD_2"
 					(effects
@@ -990,7 +1198,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -7.62 180)
+				(at 24.13 0 180)
 				(length 5.08)
 				(name "RF_P"
 					(effects
@@ -1008,7 +1216,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -5.08 180)
+				(at 24.13 -2.54 180)
 				(length 5.08)
 				(name "RF_N"
 					(effects
@@ -1026,7 +1234,7 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 -2.54 180)
+				(at 24.13 -22.86 180)
 				(length 5.08)
 				(name "AVDD_3"
 					(effects
@@ -1044,7 +1252,7 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 0 180)
+				(at 24.13 -25.4 180)
 				(length 5.08)
 				(name "AVDD_4"
 					(effects
@@ -1062,7 +1270,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 17.78 270)
+				(at 24.13 -30.48 180)
 				(length 5.08)
 				(name "GND_1"
 					(effects
@@ -1080,7 +1288,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.86 17.78 270)
+				(at 24.13 -5.08 180)
 				(length 5.08)
 				(name "RBIAS"
 					(effects
@@ -1098,7 +1306,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 17.78 270)
+				(at -10.16 -30.48 0)
 				(length 5.08)
 				(name "DGUARD"
 					(effects
@@ -1116,7 +1324,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 17.78 270)
+				(at -10.16 -33.02 0)
 				(length 5.08)
 				(name "GND_2"
 					(effects
@@ -1134,7 +1342,7 @@
 				)
 			)
 			(pin input line
-				(at 15.24 17.78 270)
+				(at -10.16 -10.16 0)
 				(length 5.08)
 				(name "SI"
 					(effects
@@ -1152,7 +1360,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 17.78 270)
+				(at 24.13 -33.02 180)
 				(length 5.08)
 				(name "EP"
 					(effects
