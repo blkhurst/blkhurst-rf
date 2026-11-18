@@ -9,4 +9,5 @@
 	(lib (name "S2B-PH-K-S_LF__SN_") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/S2B-PH-K-S_LF__SN_.kicad_sym") (options "") (descr ""))
 	(lib (name "LTC2954") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/LTC2954.kicad_sym") (options "") (descr ""))
 	(lib (name "TPS63030DSKT") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/TPS63030DSKT.kicad_sym") (options "") (descr ""))
+	(lib (name "CC1101RGPR") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/CC1101RGPR.kicad_sym") (options "") (descr ""))
 )
