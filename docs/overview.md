@@ -76,7 +76,7 @@ Small LiPo packs often have only two power wires, with no thermistor connection.
 
 - Used a keyed JST connector, so omitted reverse-polarity protection.
 - A P-channel MOSFET connects VBAT to the divider when its gate is pulled low. A pull-up to VBAT keeps it off otherwise.
-- An N-channel MOSFET pulls that gate low when the switched 3.3V supply is on. Its gate pull-down keeps it off when the supply is absent.
+- An N-channel MOSFET pulls that gate low when the switched 3.2V supply is on. Its gate pull-down keeps it off when the supply is absent.
 - Added a **0.1µF capacitor** at the ADC input to reduce noise, following [Espressif’s guidance](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/api-reference/peripherals/adc/adc_calibration.html#minimize-noise).
 
 ### Charging - BQ24074
