@@ -140,3 +140,38 @@ V_{\mathrm{OUT}}=0.5\left(1+\frac{R18}{R19}\right)
 =0.5\left(1+\frac{1.13\,\mathrm{M\Omega}}{210\,\mathrm{k\Omega}}\right)
 \approx3.190\,\mathrm{V}
 $$
+
+### CC1101
+
+<img src="./circuit_007 - cc1101.png" height=300 />
+
+This is my first RF circuit, so I followed TI’s reference closely to reduce the guesswork. I kept the RF network and supply decoupling identical, replacing the crystal capacitors with the appropriate ones for my crystal.
+
+- Checked the footprint against TI's [land pattern](https://www.ti.com/lit/ds/symlink/cc1101.pdf#page=107) and [solder-paste example](https://www.ti.com/lit/ds/symlink/cc1101.pdf#page=108) for RGP0020H. Four separate paste openings reduce coverage beneath the exposed ground pad.
+- Followed the [433 MHz application circuit](https://www.ti.com/lit/ds/symlink/cc1101.pdf#page=25) and [component table](https://www.ti.com/lit/ds/symlink/cc1101.pdf#page=26). Copied the RF network and supply decoupling from the [complete reference design](https://www.ti.com/lit/zip/swrr046), which also includes PCB layout files.
+- Used an ABRACON ABM8 26 MHz crystal with a 10 pF load rating. Selected **15 pF** for C28 and C29 using [Section 7.3](https://www.ti.com/lit/ds/symlink/cc1101.pdf#page=23) and TI's typical **2.5 pF** parasitic capacitance. This assumes the completed PCB has similar parasitics.
+
+$$
+C_L = \frac{C28 \times C29}{C28 + C29} + C_{\mathrm{parasitic}}
+\quad\Rightarrow\quad
+C28 = C29 = 2(10 - 2.5) = 15\,\mathrm{pF}
+$$
+
+<details>
+<summary>TI reference screenshots</summary>
+
+[Land pattern and solder-paste example, pages 107–108](https://www.ti.com/lit/ds/symlink/cc1101.pdf#page=107):
+
+<img src="./cc1101-ti-land-pattern.png" height=300 />
+<img src="./cc1101-ti-solder-paste.png" height=300 />
+
+[433 MHz application circuit and component table, pages 25–26](https://www.ti.com/lit/ds/symlink/cc1101.pdf#page=25):
+
+<img src="./cc1101-ti-433mhz-application.png" height=300 />
+<img src="./cc1101-ti-component-table.png" height=300 />
+
+Complete CC1101EM 434 MHz reference schematic, revision 2.0.0, including supply decoupling:
+
+<img src="./cc1101-ti-complete-reference.png" height=300 />
+
+</details>
