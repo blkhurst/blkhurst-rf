@@ -175,3 +175,15 @@ Complete CC1101EM 434 MHz reference schematic, revision 2.0.0, including supply 
 <img src="./cc1101-ti-complete-reference.png" height=300 />
 
 </details>
+
+### Display & FPC Connector
+
+<img src="./circuit_008 - display.png" height=300 />
+<img src="./circuit_008 - fpc-footprint.png" height=300 />
+
+Choosing the connector took more checking than expected. I measured the ribbon’s width, thickness, exposed contacts and stiffener to check its fit with the **Molex 503480-0800**.
+
+- Confirmed pin numbering using the [display image](https://download.mikroe.com/documents/datasheets/ER-TFT1.14-2_datasheet.pdf#page=4) and [pin table](https://download.mikroe.com/documents/datasheets/ER-TFT1.14-2_datasheet.pdf#page=7).
+- Rotating the screen 90° clockwise puts pin 1 at the top and pin 8 at the bottom. Folding the ribbon underneath without twisting preserves this order, with the contacts facing the PCB.
+- Checked the connector’s entry side and numbering against the [Molex drawing](https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/503/503480/5034800800_sd.pdf). The connection remains **1-to-1**, with no reversed pins.
+- Used the [IPS Display Click schematic](https://download.mikroe.com/documents/add-on-boards/click/ips-display-click/ips-display-click-schematic.pdf) as a circuit reference and Molex’s recommended land pattern for the footprint.
