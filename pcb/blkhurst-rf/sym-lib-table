@@ -11,4 +11,5 @@
 	(lib (name "TPS63030DSKT") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/TPS63030DSKT.kicad_sym") (options "") (descr ""))
 	(lib (name "CC1101RGPR") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/CC1101RGPR.kicad_sym") (options "") (descr ""))
 	(lib (name "ABM8-26_000MHZ-10-D-1-G-T") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/ABM8-26_000MHZ-10-D-1-G-T.kicad_sym") (options "") (descr ""))
+	(lib (name "503480-0800") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/503480-0800.kicad_sym") (options "") (descr ""))
 )
